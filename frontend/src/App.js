@@ -95,6 +95,13 @@ function App() {
         <p><strong>Food:</strong> {place.food}</p>
         <p><strong>Deposit:</strong> ₹{place.deposit_amount}</p>
         <p><strong>Amenities:</strong> {place.amenities}</p>
+        <p>
+          <strong>Website:</strong>{" "}
+          <a href={place.link} target="_blank" rel="noopener noreferrer">
+            Visit Site
+          </a>
+        </p>
+
       </div>
     ))
   )}

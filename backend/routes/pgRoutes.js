@@ -16,6 +16,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "stayvilla.png",
+    link: "https://www.magicbricks.com/propertyDetail/stayvillas-pg-shastri-nagar-in-jodhpur&pgid=4d42343839353739677261646532",
   },
   {
     name: "Stayvillas Paying Guest/Hostels",
@@ -29,6 +30,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "stayvilla.png",
+    link : "https://www.magicbricks.com/propertyDetail/stayvillas-pg-shastri-nagar-in-jodhpur&pgid=4d42343839353739677261646532",
   },
   {
     name: "Stayvillas Paying Guest/Hostels",
@@ -42,6 +44,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "stayvilla.png",
+    link : "https://www.magicbricks.com/propertyDetail/stayvillas-pg-shastri-nagar-in-jodhpur&pgid=4d42343839353739677261646532",
   },
   {
     name: "Balaji Boys Hostel PG/Hostels",
@@ -55,6 +58,7 @@ const pgData = [
     ac:"not available",
     deposit_amount:100,
     image: "balaji-pg.jpeg",
+    link : "https://www.magicbricks.com/propertyDetail/balaji-boys-hostel-pg-sardarpura-in-jodhpur&pgid=4d42313839393937677261646532",
   },
   {
     name: "Balaji Boys Hostel PG/Hostels",
@@ -68,6 +72,7 @@ const pgData = [
     ac:"not available",
     deposit_amount:100,
     image: "balaji-pg.jpeg",
+    link: "https://www.magicbricks.com/propertyDetail/balaji-boys-hostel-pg-sardarpura-in-jodhpur&pgid=4d42313839393937677261646532",
   },
   {
     name: "Karam Residency Paying Guest/Hostels",
@@ -81,6 +86,7 @@ const pgData = [
     ac:"available",
     deposit_amount:2500,
     image: "karam_single.png",
+    link: "https://www.magicbricks.com/propertyDetail/karam-residency-pg-mandore-in-jodhpur&pgid=4d42323431393637677261646532",
   },
   {
     name: "Karam Residency Paying Guest/Hostels",
@@ -94,6 +100,7 @@ const pgData = [
     ac:"available",
     deposit_amount:2500,
     image: "karam_double.png",
+    link: "https://www.magicbricks.com/propertyDetail/karam-residency-pg-mandore-in-jodhpur&pgid=4d42323431393637677261646532",
   },
   {
     name: "Karam Residency Paying Guest/Hostels",
@@ -107,6 +114,7 @@ const pgData = [
     ac:"available",
     deposit_amount:2500,
     image: "karam_triple.png",
+    link: "https://www.magicbricks.com/propertyDetail/karam-residency-pg-mandore-in-jodhpur&pgid=4d42323431393637677261646532",
   },
   {
     name: "Karam Residency Paying Guest/Hostels",
@@ -120,6 +128,7 @@ const pgData = [
     ac:"available",
     deposit_amount:2500,
     image: "karam_four.png",
+    link: "https://www.magicbricks.com/propertyDetail/karam-residency-pg-mandore-in-jodhpur&pgid=4d42323431393637677261646532",
   },
   {
     name: "Shivaay Girls Pg/Hostels",
@@ -133,6 +142,7 @@ const pgData = [
     ac:"not available",
     deposit_amount:8000,
     image: "shivay.png",
+    link: "https://www.magicbricks.com/propertyDetail/shivaay-girls-pg-sardarpura-in-jodhpur&pgid=4d42343431393135677261646532",
   },
   {
     name: "Hotel Guru International Paying Guest/Hostels",
@@ -146,6 +156,7 @@ const pgData = [
     ac:"available",
     deposit_amount:500,
     image: "guru.png",
+    link:"https://www.magicbricks.com/propertyDetail/hotel-guru-international-pg-nai-sarak-in-jodhpur&pgid=4d42313531383337677261646532",
   },
   {
     name: "Hotel Guru International Paying Guest/Hostels",
@@ -159,6 +170,7 @@ const pgData = [
     ac:"available",
     deposit_amount:500,
     image: "guru.png",
+    link:"https://www.magicbricks.com/propertyDetail/hotel-guru-international-pg-nai-sarak-in-jodhpur&pgid=4d42313531383337677261646532",
   },
   {
     name: "Hotel Guru International Paying Guest/Hostels",
@@ -172,6 +184,7 @@ const pgData = [
     ac:"available",
     deposit_amount:500,
     image: "guru.png",
+    link:"https://www.magicbricks.com/propertyDetail/hotel-guru-international-pg-nai-sarak-in-jodhpur&pgid=4d42313531383337677261646532",
   },
   {
     name: "Shree Gajanand Paying Guest/Hostels",
@@ -185,6 +198,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "gajanand.png",
+    link:"https://www.magicbricks.com/propertyDetail/shree-gajanand-paying-guest-pg-chopasani-road-in-jodhpur&pgid=4d42313136373734677261646532",
   },
   {
     name: "Shree Gajanand Paying Guest/Hostels",
@@ -198,6 +212,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "gajanand.png",
+    link:"https://www.magicbricks.com/propertyDetail/shree-gajanand-paying-guest-pg-chopasani-road-in-jodhpur&pgid=4d42313136373734677261646532",
   },
   {
     name: "Shree Gajanand Paying Guest/Hostels",
@@ -211,6 +226,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "gajanand.png",
+    link:"https://www.magicbricks.com/propertyDetail/shree-gajanand-paying-guest-pg-chopasani-road-in-jodhpur&pgid=4d42313136373734677261646532",
   },
   {
     name: "Shree Gajanand Paying Guest/Hostels",
@@ -224,6 +240,7 @@ const pgData = [
     ac:"available",
     deposit_amount:5000,
     image: "gajanand.png",
+    link:"https://www.magicbricks.com/propertyDetail/shree-gajanand-paying-guest-pg-chopasani-road-in-jodhpur&pgid=4d42313136373734677261646532",
   },
   {
     name: "Mathur Paying Guest Hostel for Boys/Hostels",
@@ -237,6 +254,7 @@ const pgData = [
     ac:"available",
     deposit_amount:1500,
     image: "mathur.png",
+    link:"https://www.magicbricks.com/propertyDetail/mathur-paying-guest-hostel-for-boys-pg-chopasni-housing-board-in-jodhpur&pgid=4d42333732313935677261646532",
   },
   {
     name: "Mathur Paying Guest Hostel for Boys/Hostels",
@@ -250,6 +268,7 @@ const pgData = [
     ac:"available",
     deposit_amount:1500,
     image: "mathur.png",
+    link:"https://www.magicbricks.com/propertyDetail/mathur-paying-guest-hostel-for-boys-pg-chopasni-housing-board-in-jodhpur&pgid=4d42333732313935677261646532",
   },
   {
     name: "Savitri PG",
@@ -263,6 +282,7 @@ const pgData = [
     ac:"not available",
     deposit_amount:5000,
     image: "savitri.png",
+    link:"https://www.magicbricks.com/propertyDetail/savitri-pg-ratanada-in-jodhpur&pgid=4d42343031353739677261646532",
   },
   
 ];

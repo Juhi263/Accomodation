@@ -12,6 +12,7 @@ const PgSchema = new mongoose.Schema({
   ac: String,
   deposit_amount: Number,
   image: String, // Image URL
+  link: String,
 });
 
 module.exports = mongoose.model("pg", PgSchema);
