@@ -310,29 +310,34 @@ router.post("/populate", async (req, res) => {
   }
 });
 
-// API to get filtered places
+// API to get filtered places with pagination
 router.get("/pgs", async (req, res) => {
   try {
-    let query = {};
+    const { page = 1, limit = 10, accomodation, maxRent, room_sharing, ac } = req.query;
+    const filters = {};
 
-    if (req.query.maxRent) {
-      query.rent = { $lte: Number(req.query.maxRent) };
-    }
-    if (req.query.accomodation) {
-      query.accomodation = req.query.accomodation;
-    }
-    if (req.query.room_sharing) {
-      query.room_sharing = req.query.room_sharing;
-    }
-    if (req.query.ac) {
-      query.ac = req.query.ac;
-    }
-    
-    const pg = await Pg.find(query);
-    res.json(pg);
+    if (accomodation) filters.accomodation = accomodation;
+    if (maxRent) filters.rent = { $lte: maxRent }; // Rent less than or equal to maxRent
+    if (room_sharing) filters.room_sharing = room_sharing;
+    if (ac) filters.ac = ac;
+
+    // Paginate using MongoDB query
+    const skip = (page - 1) * limit;
+    const places = await Pg.find(filters)
+      .skip(skip)
+      .limit(parseInt(limit))
+      .exec();
+
+    const totalPlaces = await Pg.countDocuments(filters); // Get the total number of places that match filters
+    const totalPages = Math.ceil(totalPlaces / limit);
+
+    res.json({ places, totalPages });
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Error fetching places:", error);
+    res.status(500).send("Server error");
   }
 });
+
+
 
 module.exports = router;
